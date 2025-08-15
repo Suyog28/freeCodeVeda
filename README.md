@@ -1,6 +1,6 @@
-# Skillio Clone (Educational)
+# freeCodeVeda (Educational)
 
-A lightweight full-stack clone of `https://helloskillio.com/` for educational purposes. MERN stack (Express API + React client with Vite). File-based JSON storage by default; MongoDB optional.
+A lightweight full-stack clone of `https://freecodeveda.com/` for educational purposes. MERN stack (Express API + React client with Vite). File-based JSON storage by default; MongoDB optional.
 
 ## Run locally
 
