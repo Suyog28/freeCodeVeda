@@ -1,0 +1,30 @@
+# Render configuration for FreeCodeVeda Backend
+# This file defines the backend service deployment on Render
+
+services:
+  - type: web
+    name: freecodeveda-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: backend
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false # Set this manually in Render dashboard
+      - key: JWT_SECRET
+        sync: false # Set this manually in Render dashboard
+      - key: CORS_ORIGIN
+        sync: false # Set this manually in Render dashboard
+    healthCheckPath: /api/health
+    autoDeploy: true
+    branch: main
+# Note:
+# 1. Set MONGODB_URI to your MongoDB Atlas connection string
+# 2. Set JWT_SECRET to a secure random string
+# 3. Set CORS_ORIGIN to your Netlify frontend URL
+# 4. The free plan has limitations - consider upgrading for production use

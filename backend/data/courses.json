@@ -1,0 +1,31 @@
+[
+  {
+    "id": "software-testing-java-selenium",
+    "title": "Software Testing (Java Selenium)",
+    "shortDescription": "Learn Manual + Automation Testing with Selenium, TestNG, and frameworks.",
+    "description": "Comprehensive training on SDLC, STLC, test design, Selenium WebDriver, TestNG, framework design, CI/CD basics, and real-time projects.",
+    "duration": "4-5 Months"
+  },
+  {
+    "id": "automation-testing-python-selenium",
+    "title": "Automation Testing (Python Selenium)",
+    "shortDescription": "Python-based automation with Selenium, PyTest, and POM.",
+    "description": "Hands-on automation using Python, Selenium, PyTest, POM, fixtures, reporting, and integration with CI.",
+    "duration": "3-4 Months"
+  },
+  {
+    "id": "java-full-stack",
+    "title": "Java Full Stack Development",
+    "shortDescription": "Frontend + Backend with React and Spring Boot.",
+    "description": "HTML/CSS/JS, React basics, Java, Spring Boot REST APIs, JPA/Hibernate, MySQL, deployment. Real project included.",
+    "duration": "5 Months"
+  },
+  {
+    "id": "rest-api-testing",
+    "title": "REST API Testing",
+    "shortDescription": "Postman + REST Assured for backend testing.",
+    "description": "Deep dive into API testing strategies using Postman and REST Assured, authentication, schema validation, and automation.",
+    "duration": "6-8 Weeks"
+  }
+]
+
